@@ -1,6 +1,7 @@
 class Book
   attr_accessor :author, :title
 
+  def initialize;end
 
   def to_s
     %("#{title}", by #{author})
