@@ -2,7 +2,7 @@ class Person
   attr_writer :secret
 
   def share_secret
-    puts "#{self.secret}"
+    puts secret.to_s
     # or
     puts "with instance variable: #{@secret}"
 
